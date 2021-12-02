@@ -222,7 +222,7 @@ class Assign1_Superheroes {
         var order: String = ""
         while (order != "exit") {
 
-            println("=".repeat(25))
+            println("=".repeat(80))
             println("What coffee did you drink today?")
             order = readLine().toString()
             if (order.equals("exit", true)) break
